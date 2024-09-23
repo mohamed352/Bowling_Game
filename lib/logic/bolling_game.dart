@@ -1,4 +1,4 @@
-import 'game_interface.dart';
+import 'game_rules.dart';
 
 class BowlingGame extends GameRules {
   final List<int> _rolled = List.filled(22, 0);
